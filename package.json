@@ -1,0 +1,12 @@
+{
+  "name": "content-compare-tool",
+  "version": "1.0.0",
+  "description": "Content comparison tool for HTML and Markdown formatting",
+  "scripts": {
+    "start": "serve",
+    "dev": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+} 
