@@ -60,7 +60,7 @@
             padding: 15px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             height: 620px;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             flex-direction: column;
         }
         .text-box h2 {
@@ -68,7 +68,7 @@
             margin-bottom: 8px;
             color: #333;
             font-size: 1.1em;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             align-items: center;
             flex-shrink: 0;
@@ -79,7 +79,7 @@
             display: inline-block;
         }
         .heading-actions {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             align-items: center;
             gap: 10px;
         }
@@ -178,14 +178,14 @@
         .preview-container {
             flex: 1;
             min-height: 0;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             flex-direction: column;
             max-width: 100%;
             overflow: hidden;
             position: relative;
         }
         .toggle-container {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             margin-bottom: 8px;
             flex-shrink: 0;
         }
@@ -234,7 +234,7 @@
         }
         
         .tab-container {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             border-bottom: 1px solid #ddd;
             margin-bottom: 10px;
         }
@@ -293,14 +293,14 @@
         }
         
         .button-bar {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             flex-wrap: wrap;
             margin-top: 10px;
             justify-content: center;
         }
         
         .format-actions {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             margin: 5px 0;
         }
@@ -311,7 +311,7 @@
         
         /* Card Preview Styles */
         .card-preview-container {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: center;
             align-items: flex-start;
             background-color: #f0f0f0;
@@ -342,7 +342,7 @@
         }
         
         .format-toggle {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             margin: 0 0 15px 0;
         }
@@ -354,7 +354,7 @@
             color: #555;
             border-bottom: 1px solid #eee;
             padding-bottom: 3px;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             align-items: center;
             letter-spacing: var(--fidelity-header-letter-spacing);
@@ -363,7 +363,7 @@
         .output-container {
             position: relative;
             flex-grow: 1;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             flex-direction: column;
             padding: 0;
             margin: 0;
@@ -386,7 +386,7 @@
         }
         
         .card-header {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: flex-end;
             align-items: center;
             margin-bottom: 16px;
@@ -433,7 +433,7 @@
         
         .import-button {
             background-color: #28a745;
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             align-items: center;
             gap: 5px;
         }
@@ -489,7 +489,7 @@
         }
         
         .modal-header {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
@@ -511,14 +511,14 @@
         }
         
         .modal-options {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             flex-direction: column;
             gap: 12px;
             margin-bottom: 25px;
         }
         
         .modal-option {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             align-items: center;
             padding: 12px 15px;
             border: 1px solid #ddd;
@@ -538,7 +538,7 @@
         }
         
         .modal-option-icon {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             align-items: center;
             justify-content: center;
             width: 36px;
@@ -568,7 +568,7 @@
         }
         
         .modal-actions {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: flex-end;
             gap: 10px;
         }
@@ -627,7 +627,7 @@
         
         /* Card Preview Styles */
         .card-pill-container {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             gap: 8px;
             margin-top: 24px;
             flex-wrap: wrap;
@@ -678,7 +678,7 @@
         }
         
         .card-preview.with-pills .card-pill-container {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
         }
         
         .card-preview:not(.with-pills) .card-pill-container {
@@ -687,7 +687,7 @@
         
         /* Make section label items align better */
         .section-label {
-            display: flex;
+            display: flex; flex-direction: column; width: 180px;
             justify-content: space-between;
             align-items: center;
             gap: 10px;
@@ -767,8 +767,8 @@
                             <div class="card-content" id="cardContentArea"></div>
                             <div class="card-pill-container">
                                 <span class="card-pill">Option 1</span>
-                                <span class="card-pill card-pill-primary">Option 2</span>
-                                <span class="card-pill card-pill-secondary">Option 3</span>
+                                <span class="card-pill">Option 2</span>
+                                <span class="card-pill">Option 3</span>
                             </div>
                         </div>
                     </div>
